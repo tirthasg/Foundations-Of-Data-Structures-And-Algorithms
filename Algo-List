@@ -28,3 +28,7 @@ Merge Sort optimization by passing the auxillary space directly in the call of h
 Quick Sort:
 
 Quick Sort as a Divide-and-Conquer algorithm
+
+
+Decrease-and-Conquer Lomuto
+Bi-directional Decrease-and-Conquer Hoare
