@@ -37,5 +37,42 @@ int main()
     Student *s4 = new Student(23, 87, 16);
     s4 -> display();
 
+    Student s5(*s4);
+    s5.display();
+
+    Student *s6 = new Student(s3);
+    s6 -> display();
+
+    Student s7;
+    s7 = *s6;
+    s7.display();
+
+    // Constructors: Default constructor, Parameterized constructor, Copy constructor
+    // Copy assignment operator
+    // Destructor
+
+    cout << "Address of s1: " << &s1 << endl;
+    cout << "Address of s2: " << s2 << endl;
+    cout << "Address of s3: " << &s3 << endl;
+    cout << "Address of s4: " << s4 << endl;
+    cout << "Address of s5: " << &s5 << endl;
+    cout << "Address of s6: " << s6 << endl;
+    cout << "Address of s7: " << &s7 << endl;
+    
+    delete s2;
+    delete s4;
+    delete s6;
+
+    Student s8; // Constructor 1
+    Student s9(10); // Constructor 2
+    Student s10(15, 72, 32); // Constructor 3
+    
+    Student s11(s10); // Copy constructor
+    
+    Student s12;
+    s12 = s11; // Copy assignment operator
+
+    Student s13 = s9; // Copy constructor. Not copy assignment operator
+
     return 0;
 }

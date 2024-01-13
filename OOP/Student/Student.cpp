@@ -11,10 +11,18 @@ class Student
 
         }
 
+        Student(int rollNumber) {
+            this -> rollNumber = rollNumber;
+        }
+
         Student(int rollNumber, int marks, int age) {
             this -> rollNumber = rollNumber;
             this -> marks = marks;
             this -> age = age;
+        }
+
+        ~Student() {
+            cout << "Destructor called on object at: " << this << endl;
         }
 
         int getRollNumber() {
