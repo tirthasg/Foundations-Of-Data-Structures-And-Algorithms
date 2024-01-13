@@ -1,8 +1,8 @@
 #include <iostream>
 #include <vector>
-#include <algorithm>
 #include <cstdlib>
 #include <ctime>
+#include <algorithm>
 using namespace std;
 
 #include "../../Utility-Functions/Input-Vector.h"
