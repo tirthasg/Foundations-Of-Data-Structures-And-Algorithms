@@ -7,6 +7,16 @@ class Student
         int rollNumber;
         int marks;
 
+        Student() {
+
+        }
+
+        Student(int rollNumber, int marks, int age) {
+            this -> rollNumber = rollNumber;
+            this -> marks = marks;
+            this -> age = age;
+        }
+
         int getRollNumber() {
             return rollNumber;
         }
