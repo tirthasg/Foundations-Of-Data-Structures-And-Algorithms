@@ -41,3 +41,40 @@ Heaps PSET:
 4. Striver: 4 Easy, 7 Medium, 6 Hard (+ 2-3 problems)
 5. Lintcode:
 6. Programming Pathshala: 
+7. Misc:
+
+(i) Top K Pattern:
+Merge K Sorted Pattern
+Two Heaps Pattern
+Minimum Number Pattern
+All questions under one patterns has some similarities in terms of using HEAP as a data structure. Completing these questions would gurantee you mastery on the HEAP data structure. Below list includes some of the most common questions asked in most of the companies.
+
+(ii) Top K Pattern:
+LC #215 - Kth largest number in an array
+LC #973 - K closest points to origin
+LC #347 - Top k frequent elements/numbers
+LC #692 - Top k frequent words
+LC #264 - Ugly Number II
+LC #451 - Frequency Sort
+LC #703 - Kth largest number in a stream
+LC #767 - Reorganize String
+LC #358 - Rearrange string K distance apart
+LC #1439 - Kth smallest sum of a matrix with sorted rows
+
+(iii) Merge K sorted pattern:
+LC #23 - Merge K sorted
+LC #373 - K pairs with the smallest sum
+LC #378 - K smallest numbers in M-sorted lists
+
+(iv) Two Heaps Pattern:
+LC #295 - Find median from a data stream
+LC #480 - Sliding window Median
+LC #502 - Maximize Capital/IPO
+
+(v) Minimum number Pattern:
+LC #1167 - Minimum Cost to connect sticks/ropes
+LC #253 - Meeting Rooms II
+LC #759 - Employee free time
+LC #857 - Minimumcost to hire K workers
+LC #621 - Minimum number of CPU (Task scheduler)
+LC #871 - Minimum number of Refueling stops

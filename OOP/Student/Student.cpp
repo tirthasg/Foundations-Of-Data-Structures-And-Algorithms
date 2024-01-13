@@ -20,6 +20,21 @@ class Student
         }
 
         void display() {
-            cout << rollNumber << " " << marks << endl;
+            cout << rollNumber << " " << marks << " " << age << endl;
+        }
+
+        void setRollNumber(int rNo) {
+            rollNumber = rNo;
+        }
+
+        void setMarks(int m) {
+            marks = m;
+        }
+
+        void setAge(int a) {
+            if (a < 0)
+                return;
+
+            age = a;
         }
 };
